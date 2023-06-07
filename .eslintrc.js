@@ -37,7 +37,7 @@ module.exports = {
         'react/require-default-props': 'off',
         'react/jsx-no-useless-fragment': 'off',
         'react/react-in-jsx-scope': 'off',
-        'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+        'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
         'jsx-a11y/click-events-have-key-events': 'off',
         'jsx-a11y/no-static-element-interactions': 'off',
