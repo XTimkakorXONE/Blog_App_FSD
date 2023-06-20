@@ -45,11 +45,12 @@ module.exports = {
         'react/function-component-definition': 'off',
         'linebreak-style': 'off',
         'no-shadow': 'off',
+        'no-param-reassign': 'off',
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': [
-            'error',
+            'warn',
             {
                 markupOnly: true,
                 ignoreAttribute: ['data-testid', 'to'],
