@@ -1,9 +1,15 @@
 .Modal {
     position: fixed;
     inset: 0;
-    z-index: -1;
     opacity: 0;
     pointer-events: none;
+    z-index: -1;
+    color: var(--primary-color);
+}
+
+.Modal.dark {
+    --bg-color: #090949;
+    --primary-color: #04ff04;
 }
 
 .overlay {
@@ -25,8 +31,8 @@
 }
 
 .opened {
-    opacity: 1;
     pointer-events: auto;
+    opacity: 1;
     z-index: var(--modal-z-index);
 
     .content {
