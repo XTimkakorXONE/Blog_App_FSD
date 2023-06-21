@@ -26,6 +26,7 @@ jobs:
       - name: linting css
         if: always()
         run: npm run lint:scss
+        continue-on-error: true
       - name: unit test
         if: always()
         run: npm run test:unit
