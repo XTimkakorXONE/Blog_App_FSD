@@ -24,6 +24,7 @@ module.exports = {
         'react-hooks',
     ],
     rules: {
+        'lines-between-class-members': 'off',
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         indent: [2, 4],
@@ -33,7 +34,7 @@ module.exports = {
         ],
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
-        'no-unused-vars': 'warn',
+        'no-unused-vars': 'off',
         'react/require-default-props': 'off',
         'react/jsx-no-useless-fragment': 'off',
         'react/react-in-jsx-scope': 'off',
