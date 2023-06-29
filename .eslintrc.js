@@ -45,6 +45,7 @@ module.exports = {
         'react/jsx-props-no-spreading': 'warn',
         'react/function-component-definition': 'off',
         'linebreak-style': 'off',
+        'react/no-array-index-key': 'off',
         'no-shadow': 'off',
         'no-param-reassign': 'off',
         'import/extensions': 'off',

@@ -15,7 +15,7 @@ export enum AppRoutes {
     ABOUT = 'about',
     PROFILE = 'profile',
     ARTICLES = 'articles',
-    ARTICLES_DETAILS = 'articles_details',
+    ARTICLE_DETAILS = 'article_details',
 
     NOT_FOUND = 'not_found',
 }
@@ -25,7 +25,7 @@ export const RoutePath: Record<AppRoutes, string> = {
     [AppRoutes.ABOUT]: '/about',
     [AppRoutes.PROFILE]: '/profile/', // :id
     [AppRoutes.ARTICLES]: '/articles',
-    [AppRoutes.ARTICLES_DETAILS]: '/articles/', // :id
+    [AppRoutes.ARTICLE_DETAILS]: '/articles/', // :id
 
     [AppRoutes.NOT_FOUND]: '*',
 };
@@ -49,8 +49,8 @@ export const routeConfig: Record<AppRoutes, AppRoutesProps> = {
         element: <ArticlesPage />,
         authOnly: true,
     },
-    [AppRoutes.ARTICLES_DETAILS]: {
-        path: `${RoutePath[AppRoutes.ARTICLES_DETAILS]}:id`,
+    [AppRoutes.ARTICLE_DETAILS]: {
+        path: `${RoutePath[AppRoutes.ARTICLE_DETAILS]}:id`,
         element: <ArticleDetailsPage />,
         authOnly: true,
     },
