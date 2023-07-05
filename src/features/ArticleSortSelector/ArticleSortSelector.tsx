@@ -52,7 +52,7 @@ export const ArticleSortSelector = (props: ArticleSortSelectorProps) => {
         <div className={classNames(cls.ArticleSortSelector, {}, [className])}>
             <Select
                 options={sortFieldOptions}
-                label={t('Сортировать ПО')}
+                label={t('Сортировать по')}
                 value={sort}
                 onChange={onChangeSort}
             />

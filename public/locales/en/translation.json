@@ -28,5 +28,13 @@
   "Айти": "IT",
   "Экономика": "ECONOMICS",
   "Все статьи": "All",
-  "Наука": "SCIENCE"
+  "Наука": "SCIENCE",
+  "Сортировать ПО": "Sort by",
+  "дате создания": "created date",
+  "названию": "name",
+  "просмотрам": "views",
+  "Создание новой статьи": "Create new article",
+  "Редактирование статьи": "Edit article",
+  "FRONT SIDE": "FRONT SIDE",
+  "Создать статью": "Create article"
 }

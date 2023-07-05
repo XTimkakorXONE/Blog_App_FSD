@@ -22,6 +22,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'xtimkakorx',
     ],
     rules: {
         'lines-between-class-members': 'off',
@@ -34,6 +35,7 @@ module.exports = {
         ],
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
+        'xtimkakorx/path-checker': 'error',
         'no-unused-vars': 'off',
         'react/require-default-props': 'off',
         'react/jsx-no-useless-fragment': 'off',
@@ -59,7 +61,7 @@ module.exports = {
                 ignoreAttribute: ['data-testid', 'to', 'target'],
             },
         ],
-        'max-len': ['error', { ignoreComments: true, code: 120 }],
+        'max-len': ['error', { ignoreComments: true, code: 130 }],
     },
     globals: {
         __IS_DEV__: true,

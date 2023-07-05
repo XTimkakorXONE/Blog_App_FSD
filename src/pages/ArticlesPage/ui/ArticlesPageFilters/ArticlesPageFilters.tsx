@@ -10,11 +10,11 @@ import { Input } from 'shared/ui/Input/Input';
 import { useDebounce } from 'shared/lib/hooks/useDebounce/useDebounce';
 import { TabItem, Tabs } from 'shared/ui/Tabs/Tabs';
 import { ArticleSortField, ArticleType, ArticleView } from 'entities/Article/model/types/article';
-import { fetchArticlesList } from 'pages/ArticlesPage/model/service/fetchArticlesList/fetchArticlesList';
 import { SortOrder } from 'shared/types/Sort/SortOrder';
 import { ArticleSortSelector } from 'features/ArticleSortSelector/ArticleSortSelector';
 import { ArticleViewSelector } from 'features/ArticleViewSelector';
 import { ArticleTypeTabs } from 'features/ArticlesTypeTabs';
+import { fetchArticlesList } from '../../model/service/fetchArticlesList/fetchArticlesList';
 import { articlesPageActions } from '../../model/slices/articlesPageSlice';
 import {
     getArticlesPageOrder, getArticlesPageSearch,
