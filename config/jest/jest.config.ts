@@ -7,6 +7,9 @@ import path from 'path';
 
 export default {
     globals: {
+        window: {
+            location: {},
+        },
         __IS_DEV__: true,
         __API__: '',
         __PROJECT__: 'jest',
