@@ -90,6 +90,20 @@ ColumnGap16.args = {
     ),
 };
 
+export const ColumnAlignCenter = Template.bind({});
+ColumnAlignCenter.args = {
+    direction: 'column',
+    align: 'center',
+    children: (
+        <>
+            <div>first</div>
+            <div>first</div>
+            <div>first</div>
+            <div>first</div>
+        </>
+    ),
+};
+
 export const ColumnAlignEnd = Template.bind({});
 ColumnAlignEnd.args = {
     direction: 'column',
