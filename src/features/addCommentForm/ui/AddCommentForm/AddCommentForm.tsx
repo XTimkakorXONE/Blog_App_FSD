@@ -12,7 +12,6 @@ import {
     getAddCommentFormSelectors,
     getAddCommentFormSelectorsError,
 } from '../../model/selectors/addCommentFormSelectors';
-
 import cls from './AddCommentForm.module.scss';
 
 export interface AddCommentFormProps {
@@ -49,6 +48,7 @@ const AddCommentForm: FC<AddCommentFormProps> = memo((props: AddCommentFormProps
                     value={text}
                     onChange={onCommentTextChange}
                 />
+
                 <Button
                     theme={ThemeButton.OUTLINE}
                     onClick={onSendHandler}
